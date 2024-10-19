@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Events</title>
+</head>
+<body>
+
+    
+</body>
+<scrip>
+    //document.getElementById('owl').oneclcik=function(){
+        alert('owl clicked')
+    }
+    //document.getElementById('owl').addEventListener('click',function(
+    ){
+        alert("owl clciked again")
+    })
+
+    // attachEvent()
+    //jQuery-on
+
+    //Events- type,timestamp,defaultPrevented
+    //target,toElement,srcElement,currentTarget,
+    //INTERVIEW-clientX,clientY,screenX,screenY
+    //altkey,ctrlkey,shifykey,keyCode
+
+
+    document.getElementbyId('owl').addEventListener('clcik',function(e){
+        console.log(e);
+
+    },false)//eventbubbling- false (chotta se bada),eventcapturing - true//event propagation
+     // e.stoppropagation()
+
+     //e.preventdefault()
+
+     //e.target.parentnode
+     //removeIt.remove()
+     removeIt.parentNode.removeChild(removeIt)
+
+    
+</scrip>
+</html>
